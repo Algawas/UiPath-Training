@@ -1,0 +1,57 @@
+{
+  "name": "Practice 3 with Switch",
+  "description": "Separate a collection of error codes using Switch\r\nConsidering a collection of error codes stored in an Array of Strings, separate them based on their type of error code (\"Ax\", \"Bx\" or “Cx”) and store them in 3 different arrays. \r\n\r\nNote: The initial Array should contain the following values: \r\n\r\n\"Ax001\",\"Ax002\",\"Ax003\",\"Ax004\",\"Ax005\",\"Bx001\",\"Bx002\",\"Bx003\",\"Cx001\",\"Cx002\",\"Cx003\",\"Cx004\"\r\n\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "376b3c6a-8954-4dab-8ad5-ca24e56f6684",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
