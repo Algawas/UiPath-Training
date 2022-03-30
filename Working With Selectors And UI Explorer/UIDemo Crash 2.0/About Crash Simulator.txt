@@ -1,0 +1,6 @@
+In this version, the UiDouble application can simulate a crash, randomly:
+- We have the "Enable crash simulation" check-box to enable/disable the functionality.
+- The crash can only happen when the text fields from Deposit control are edited.
+- The slider below it controls the chance of generating a crash with options of 1% (left position), 4% (middle position) and 16% (right position). In average, at 16% it should crash around 2-3 transactions, or 6-7 fields edited; at 1% it should crash around 33 transactions, or 100 fields edited.
+- The settings for "Enable crash simulation" and slider position are saved in the UIDouble.exe.config file.
+- When the UIDouble application is started, the settings to enable the crash and slider position are taken from the config file.

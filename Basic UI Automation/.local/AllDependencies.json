@@ -17461,11 +17461,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "UI Automation",
-      "projectName": "UI Automation",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Saif\\UI Automation\\.local",
+      "projectUniqueName": "Basic UI Automation",
+      "projectName": "Basic UI Automation",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Saif\\Basic UI Automation\\.local",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Saif\\UI Automation\\.local"
+      "outputPath": "C:\\Users\\Administrator\\Documents\\UiPath\\Saif\\Basic UI Automation\\.local"
     },
     "frameworks": {
       "net5.0-windows7.0": {

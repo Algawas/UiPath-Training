@@ -1,0 +1,192 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1794,1188" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="768,1123" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="creditValue" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="726,198" sap2010:WorkflowViewState.IdRef="AnchorBase_1">
+      <ui:AnchorBase.Action>
+        <ActivityAction x:TypeArguments="ui:Anchor">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
+          </ActivityAction.Argument>
+          <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'Credit Value'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
+            <ui:GetValue.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e8996088-33ac-418c-93aa-94c65ee36b85" InformativeScreenshot="c2b962813792233cfc27177170cbf014" Selector="&lt;ctrl role='text' /&gt;">
+                <ui:Target.TimeoutMS>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:Target.TimeoutMS>
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:GetValue.Target>
+            <ui:GetValue.Value>
+              <OutArgument x:TypeArguments="x:String">
+                <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">creditValue</mca:CSharpReference>
+              </OutArgument>
+            </ui:GetValue.Value>
+          </ui:GetValue>
+        </ActivityAction>
+      </ui:AnchorBase.Action>
+      <ui:AnchorBase.AnchorProvider>
+        <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'Credit'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+          <ui:WaitUiElementAppear.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ce950364-fac5-4b61-80e1-07709b3646ef" InformativeScreenshot="248c94754f4706721496adb2f643edd4" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Invoice #* - Adobe Reader' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Credit   ' role='text' /&gt;">
+              <ui:Target.TimeoutMS>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:Target.TimeoutMS>
+              <ui:Target.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady" />
+              </ui:Target.WaitForReady>
+            </ui:Target>
+          </ui:WaitUiElementAppear.Target>
+        </ui:WaitUiElementAppear>
+      </ui:AnchorBase.AnchorProvider>
+    </ui:AnchorBase>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box - creditValue Legacy" sap:VirtualizedContainerService.HintSize="726,85" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+      <ui:MessageBox.Text>
+        <InArgument x:TypeArguments="x:Object">
+          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">creditValue</mca:CSharpValue>
+        </InArgument>
+      </ui:MessageBox.Text>
+    </ui:MessageBox>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Adobe Reader" sap:VirtualizedContainerService.HintSize="726,543" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e091638a-f546-497c-8751-7822b9810a72" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,251" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'Credit'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e091638a-f546-497c-8751-7822b9810a72">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="551, 580, 48, 11" ElementType="Text" FriendlyName="'$0.00 USD'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='$0.00 USD   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl role='text' automationid='' /&gt;" Guid="681605b3-eddd-48ba-b76f-32a2a3051e0e" InformativeScreenshot="5499f3d2fd3549da803cc7198c6ab89c.png" ScopeSelectorArgument="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Invoice #38645 - Adobe Reader' /&gt;" SearchSteps="FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="490, 580, 29, 11" ElementType="Text" FriendlyName="'Credit'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Credit   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Credit   ' role='text' automationid='' check:text='Credit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAPCAYAAABqQqYpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFWSURBVEhL7ZM9asMwGIarY2jU3At00eSha1YHugSyBwyFjhH4BLqBLlC8BoPp0tJgSodgNJUSPDQY4SO8tS3lz7GbDIVkyPBgLPR93+NX8k1Zljg3V4k1FyZhNOLQByUEhFDwiUKam4OCo2gFnzD46hNajUCYQFIY5KnCo3xB0VHjJH6QygEIf0KkVzD6GQFn8OQcplVwlI3EYmd9AeUzMJH8IWHmkF7P0CKBYHU6NQPI9w9EgWffqY8w1jAm26xRznHXSmI2E2BNPekUsRLNoLa9w0nQB4XMGCyjoDqySib9tul5Em9xPeQeIvlCnoTgB8fxT0nYBoVt7L7KMsR0OqyeIyhd9NyJUyRad6LMY4jqTnARI9+TcEnQMVRW7XNNTCrhnZAEnURYuppdnERF39+xJ1Hv254/Ibfw5SvyvbWatsQKmRo3vbvS2EqckavEmguQKPELmRePfL0VpRMAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                      <uix:Target DesignTimeRectangle="551, 562, 53, 15" ElementType="Text" FriendlyName="'$40.00 USD'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='$40.00 USD   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='$40.00 USD   ' role='text' automationid='' check:text='$40.00 USD' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAATCAYAAAAqL6XVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIgSURBVFhH7ZW9a9tAGMZzf8aNmj1583KThywZumrIEsgu0OShy4GnLAVBt0A5KHQJRVsGFW1pMZpCMEeWGiFojRD6E57el74c42RIKCg2PMNJ97y63/u+9/oE7+B3Utc1xq4j5Fg0gCxTjilPUfaejUEOcgsZL8AIAVGi/mesispt2mItLkHJBYQsUVcSydJXa713jjBeo+oFrOQtlv7ExCFsgVhun/GUkOICxONIS70ukHLWrofxQogs7zwmnhX1r5Dob/XO0shClim4RzFjM0x2K1kk4IyqQBayyiLMyRRB/IAs+gBCQ8R5k5C/3bPNT0RzChrE+H3Qcwhyf7x811PcIVKJsO90jKF6kDYj3gDSfcRkS0P+cRm0wLq9PcLA08Ltf4DwPRBfQLaH/QhxfcjzAkgygc8F0rZSux63HiSvU9euyRV82pTetmu1Fjj3LnH9ZaEO9j8gdbt+R2g6SZ9NwUZ3KJ547DyxZ1RXysTt9GTwTBjDzLRWpj52BsYTbNoAbwjZVsH55hGyyp1N3en06ycEGtbsU0UZQL6kknmMgNo76TWQN9/aFm6lgv749dp3skIeh2oonSrwjQK6hzh396tamRiELZEWj4iD6X7IvseB9dW1aztdVUssbyGbLCoNWmFnUgZihUIK+K46e6fhPo+LbTR43/OpBBSZsBV0XjuZXeWa/UrPT1cnDTPi/8lx6wg5Fh0hx6J3AFnjHz2ReJaVUSRCAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                      <uix:Target DesignTimeRectangle="551, 595, 53, 16" ElementType="Text" FriendlyName="'$40.00 USD'" FullSelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl idx='2' name='$40.00 USD   ' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl automationid='' name='$40.00 USD   ' role='text' check:text='$40.00 USD' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAAUCAYAAAA3KpVtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIlSURBVFhH7ZW/a9tAFMdzf8aNmj1583KThywZut6QJZBdoMlDlgNPWQqCboFyUOhSirYMKtrSYjSFYI4uNeKgNUL4T/j2Tnf65RgnQ0tBteE7nHTfp/u89+75bLfbYew6QY5FJ8ixaABZZgJTkaHsPRuDPOQWKlmAEQJiRPk7rHTlN22xlteg5ApSldhVCumSm7XdO0eUrFH1AlbqHks+qeMQtkCiti94Sih5BRIIZKVda2SCtethvAgyLzpPHc+J8luk9lu9szRykGUGEVDM2AyT/UrqFIJRE8hBVnmMOZkiTJ6Qx29AaISkaBLyq3u2+Yp4TkHDBD+Oeo5BHo5X7Hv0A2KTCPfOxhiqB+kyEgwg/UfqbFnInz6DDti2d0AYRKb9/idIHoBwCdUe9gby7pjnFZBkAi4ksrZS+x6/HiSvU9eu6S04bUrv2rVaS1wG17h7vzAH+xeQtl0/I6o7yZ7NwMYP0M88bp64M5orVcft9GzwTBjDrG6t3HzsAkyk2LQB/iJkWwXvm8fIK382c6ezD28RWth6nynKAPI1lSwShNTdyaCB/PSxbeFWJuiXb3/6TlYoksgMpXMDvjFAj5CX/n5VqzoGYUtk+juScHoYsu/xYH117dpOV9MSy3uoJotGg1bYm5ShXEErCe6rc3AaHvL42LUG73s+kwCdS1dB73WT2Veu2W/08nT1sjAj/p8ct06QY9H/AZnnOcauM4z+B/wGqhQ5sDXGicoAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">
+                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">creditValue</mca:CSharpReference>
+                </OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\\Program Files (x86)\\Adobe\\Reader 11.0\\Reader\\acrord32.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVFhH7ZVdbFNlGMcPZM4tkdbEL9BRkEiByWK40BjMEm+c3poQvNDFaIIXxhsYSyYjCCRLTCa0UcscU+P0grkwBRnGdQvE4ujHNhaGG+0a12320+yj67rvj7/v85694213upwauPOf/NK+PT3P73mf03Oq/B+dyY9EIgiHwwiFQpxgMLgKrekYQd+LRqP8/dDQ0FV27kNqiQy59OwLeBAwOfr6+jA8PDxRXl7+xIpubRq2F+GXl19Lof3Doxx53fbmOynfWQ+qGQgE4HQ6QWHNJDI2UW96Hhe2FaUgMt7nRVPR/pUVMHDxcspxSvq5BNUcGBhYbYDCJpFgurWX4/zWPfhh294UKPQ6bL+G25ZzfG1/6z0kgyHcLKvk6/RzZKimPAERv9/fzZQ5qnklnz+zC9+yjmUojftLMMom4D71KV/T590WG0dO+rkE1aQGXC7Xyrfuxev1fsW0G1U7S/XTO1HLOpYRufPN96treg07Pbh+5BhfXzn4Lkc+T0A1BwcH0dXVhcbGRlitVthsNtjtdiQSiSWfz3eAqTfwBqq2PAdbwe4UKOlryu2v6zWPp0M16S7o7+9Hc3Mz6urqeBNVVVWwWCx0m95l6lzewInNO2BlI1uPiwdKUbPnRc1jWlBNaiAWi/FLwcaOnp4euN1uOBwOfnsy9eO8gYont+NBwH71GBsbw/j4OCcej2N0dJQ/tOhBxdQ7eANGo3Erw7weeXl5JR6PBwTtQrwXdHR0wLExFzd2FcJZVo7e3l7+JJTlExMTdP05k5OT1IBZNJDP2LQeOTk5+2ikmaDddm/IhffwUfjPWPjjeGRkhIu15Mlk8l4DOmOm8WWCRv2n4THc3bsPkStXU8Ra8qmpqewbIEkmaMx3XnkVbiUXsRt/aIpl+X9qQFzPdMRufRWVcCgPZxQL+fT0NIdqqqX1xSxE6Yjd9lUch13Jw1815zXFQj4zM8OhmmppfTELkYzYKfGb4Sm0mnaihRFnt1q6WJbPzs5m34AsE4iddn98Aj8bNiN804Wf2Gv72+9nFBNzc3PZNyBkAjHecbbbHw1b0HnsJJeGnG5cYOtLRS/B39jEcR8/jVvVVkQ8nVw+Pz+ffQNCKI+WcDNxg2k3Qi4PXJWncLm4BLXKI5waxjllE74zFaKl9BD7pyxEoPU6FhYWsm9AlorRBpnUxgREU/HraK88jYGWNiSiMT7qQOs1/Fr6AWrZX3S1YoDVWIBQ5y0sLi5m34B8PeORKNo+KsNZVrSh+I3Vayuur4BGTdCOieTIKJcvLS1l34D4Ef3t7sSXbJRn2G6If3x+TaksJqkQE8vLy9k3IARn2Tg/UYycjrr6FKEszSQmKFRTLa0vZiE4aTShQnkUv3/2xRqhLM0kFqGaaml9MaeLBFpCWZouFqGaaml9McsiLaEeqRyqqZbWF/N6Mr1SOVRTLa0vBYyDjLL7BNWimrqTz6ATqOv7AdViNRXlX+Io0taRa+qrAAAAAElFTkSuQmCC" InformativeScreenshot="07ea0230d03de9c304080e8b4d7094d9.png" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Invoice #* - Adobe Reader' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box - creditValue Modern" sap:VirtualizedContainerService.HintSize="726,85" sap2010:WorkflowViewState.IdRef="MessageBox_2">
+      <ui:MessageBox.Text>
+        <InArgument x:TypeArguments="x:Object">
+          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">creditAmount</mca:CSharpValue>
+        </InArgument>
+      </ui:MessageBox.Text>
+    </ui:MessageBox>
+  </Sequence>
+</Activity>
